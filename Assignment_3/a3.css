@@ -1,0 +1,58 @@
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(117, 204, 242);
+    color: white;
+}
+
+.home {
+    width: 100%;
+    height: 200px;
+    background-color: aliceblue;
+    border-top: black 2px solid
+}
+
+.mainimg {
+    display: flex;
+    justify-content: center;
+    margin: 7px
+}
+
+.img1 {
+    width: 200px;
+    margin: 20px
+}
+
+.div2 {
+    width: 100%;
+    height: 15px;
+    background-color: rgb(117, 204, 242);
+    border: 2px solid black;
+}
+
+.section {
+    width: 100%;
+    height: 250px;
+    margin-top: 2px;
+    background-color: rgb(225, 234, 242);
+
+}
+
+.course{
+    width: 100%;
+    height: 330px;
+    margin-top: 1px;
+    background-color: aliceblue;
+
+}
+
+.contact{
+        width: 100%;
+    height: 330px;
+    margin-top: 2px;
+    background-color: rgb(225, 234, 242);
+
+}
