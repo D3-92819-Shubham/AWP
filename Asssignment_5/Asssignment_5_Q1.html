@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asssignment_5_Q1</title>
+</head>
+
+<body>
+
+    <script>
+
+
+        const num1 = window.prompt("Enter the value of num1: ")
+        if (num1 < 0) {
+            window.alert("num1 is -ve pls enter the +ve value")
+            const num1 = window.prompt("Enter the +ve value of num1: ")
+        }
+        console.log(num1)
+
+        const num2 = window.prompt("Enter the value of num2: ")
+        if (num2 < 0) {
+            window.alert("num2 is -ve pls enter the +ve value")
+            const num2 = window.prompt("Enter the value of num2: ")
+        }
+        console.log(num2)
+
+        const num3 = window.prompt("Enter the value of num3: ")
+        if (num3 < 0) {
+            window.alert("num3 is -ve pls enter the +ve value")
+            const num3 = window.prompt("Enter the value of num3: ")
+        }
+        console.log(num3)
+
+        let n1 = parseInt(num1)        
+        let n2 = parseInt(num2)     
+        let n3 = parseInt(num3)     
+
+
+        let gret1 = function (n1, n2) {
+            if (n1 > n2) {
+                return n1
+            } else {
+                return n2
+            }
+        }
+
+        let gret2 = function (res, n3) {
+            if (res > n3) {
+
+                return res
+
+            } else {
+                return n3
+            }
+        }
+
+        let res = gret1(n1, n1)
+        let final = gret2(res, n3)
+
+        window.alert("Greatest is number is " + final)
+        console.log("Greatest number is : "+ final)
+
+
+
+
+    </script>
+
+</body>
+
+</html>
