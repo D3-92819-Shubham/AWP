@@ -59,7 +59,7 @@ function afterSubmit() {
 
 
   if (!validateDate(birth.value)) {
-    eBirth.innerText = "Age must be at least 18 years old.";
+    eBirth.innerText = "Age must be at least 18 years old";
     eBirth.style.color = "red";
     isValid = false;
   } else eBirth.innerText = "";
@@ -73,7 +73,7 @@ function afterSubmit() {
 
  
   if (selectCourse.value === "") {
-    eCourse.innerText = "Please select a course.";
+    eCourse.innerText = "Please select the course.";
     eCourse.style.color = "red";
     isValid = false;
   } else eCourse.innerText = "";
